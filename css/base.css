@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	margin: 0;
+}
+button{
+	border: 0;
+	outline: none;
+}
+.w{
+	width: 432px;
+	margin: 0 auto;
+}
+.sign{
+	width: 100%;
+	height: 100%;	/*因为是在盒子里，所以背景已经固定了，不用设置固定 fixed*/
+	background: #b8e5f8 url(../images/sign_bg.db29b0fb.png) no-repeat top center;
+	background-size: cover;
+	margin-right: 15px;
+	overflow: hidden;	/*解决外边距塌陷*/
+}

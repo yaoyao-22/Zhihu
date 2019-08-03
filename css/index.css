@@ -1,0 +1,157 @@
+/*头部 start*/
+.header{
+	height: 506px;
+	background-color: #fff;
+	margin-top: 56px;		/*会有外边距塌陷问题，给父亲加溢出隐藏*/
+	padding: 32px 40px 0;
+	position: relative;
+}
+/*logo部分*/
+.hd-logo{
+	width: 142px;
+	margin: 0 auto;
+}
+.hd-logo a{
+	display: block;
+	height: 65px;
+	background: url(../images/zhihu.png) no-repeat;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.hd-slogen{
+	color: #0084ff;
+	font-size: 22px;
+	margin: 20px 0;
+	text-align: center;
+}
+.hd-input input{
+	width: 355px;
+	height: 60px;
+	color: #8590a6;
+	font-size: 14px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+}
+.hd-option{
+	position: relative;
+	margin: 20px 0 32px 0;
+}
+.hd-option button{
+	font-size: 14px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.hd-option-l{
+	color: #175199;
+}
+.hd-option-l:hover{
+	color: #8590a6;
+}
+.hd-option-r{
+	color: #8590a6;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.hd-option-r:hover{
+	color: grey;
+}
+.hd-entry{
+	width: 355px;
+	height: 38px;      
+	color: #fff;
+	font-size: 14px;
+	background-color: #0084ff;
+	border-radius: 3px;
+}
+.hd-entry:hover{
+	background-color: #0077e6;
+}
+.entry-more{
+	width: 355px;
+	margin: 20px auto 18px;
+	text-align: center;		/*让父盒子里面的文字水平居中对齐，给父盒子加*/
+}
+.entry-more span{
+	color: #8590a6;
+	margin: 2px;
+}
+.entry-more span button{
+	color: #8590a6;
+	font-size: 14px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.entry-more button:hover{
+	color: #666;
+}
+.zhuce{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	position: absolute;		/*无奈之举，记住下次划分一定要先弄清楚！！*/
+	bottom: 0;
+	left: 0;
+	background-color: #f6f6f6;
+	border-top: 1px solid #ebebeb;
+}
+.zhuce a{
+	color: #1769b8;
+}
+/*头部 end*/
+
+/*中间部分 start*/
+.download{
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background-color: #8590a6;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.download a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 14px;
+}
+/*中间部分 end*/
+
+/*页尾部分 start*/
+.footer{
+	width: 532px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	text-shadow: 0 1px 2px #999;
+}
+.foo-top a{
+	color: #fff;
+}
+.foo-top a:hover{
+	border-bottom: 1px solid #eee;
+}
+.foo-top-b{
+	margin: 10px 0;
+}
+.foo-bottom{
+	height: 48px;
+	margin-top: 18px;
+	padding-top: 15px;
+	border-top: 1px solid #eee;
+}
+.foo-bottom img{
+	vertical-align: middle;		/*小技巧，把这玩意加在图片中，可以让图片和文字居中对齐*/
+}
+.foo-bottom a{
+	color: #fff;
+	text-shadow: 0 1px 2px #999;
+}
+.foo-bottom a:hover{
+	border-bottom: 1px solid #eee;
+}
+/*页尾部分 end*/
